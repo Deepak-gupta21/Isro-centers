@@ -1,0 +1,114 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --blue: #205bdb;
+  --merablue:rgb(25, 54, 183);
+}
+
+.logo-img {
+  scale: 0.1;
+}
+
+.btn {
+  background-color: var( --blue);
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 8px 20px;
+  font-size: 20px;
+  border: none;
+}
+.btn:active {
+  background-color: rgb(43, 158, 229);
+}
+.form-input {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 25px;
+  background-color: rgb(204, 204, 227);
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  width: 300px;
+  height: 25px;
+}
+.form {
+  display: flex;
+  width: 680px;
+  justify-content: space-between;
+}
+.input-group {
+  width: 680px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.heading {
+  padding-top: 200px;
+  margin: auto;
+  width: 680px;
+  font-size: 20px;
+  position: relative;
+}
+.sub_heading > p {
+  font-size: 27px;
+  width: 690px;
+  font-weight: 550;
+  padding: 0px 0px 0px 5px;
+}
+.sub_heading {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 690px;
+}
+
+.instruction {
+  width: 650px;
+  align-items: center;
+  height: 35px;
+  margin: auto;
+  border-radius: 19px;
+  background-color: var( --blue);
+  color: white;
+  padding: 5px 20px 5px 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.sentence span {
+  /* color: rgb(75, 108, 238); */
+  color: var( --blue);
+  font-weight: bold;
+}
+
+.display-box {
+  display: flex;
+  flex-direction: column;
+  background-color: var( --blue);
+  border-radius: 20px;
+  width: 650px;
+  height: 50px;
+  margin: auto;
+  justify-content: center;
+  padding: 8px 20px;
+  margin-bottom: 8px;
+}
+th {
+  text-align: left;
+  font-size: 20px;
+
+  color: white;
+}
+
+td {
+  font-size: 2vw;
+  text-align: left;
+  color: white;
+}
+
+
+button.selected {
+  background-color: cyan;
+}
